@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar {
+    width: 22%;
+    background-color: #2C3E50;
+    color: #ffffff;
+    padding: 15px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h2 {
+    font-size: 27px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-family: "Algerian";
+    color: #00FFFF;
+}
+
+
+.dropdown{
+    margin-bottom: 10px;
+}
+
+.dropdown button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #34495E;
+    color: #ffffff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    outline: none;
+}
+
+.dropdown button i {
+    margin-right: 8px;
+}
+
+.dropdown button:hover {
+    background-color: #00FFFF;
+    transform: scale(1.02);
+    color: #0C2340;
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #2C3E50;
+    padding-left: 15px;
+    border-radius: 4px;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    cursor: pointer;
+    font-style: bold;
+}
+
+.dropdown-content.show {
+    max-height: 500px;
+    padding-top: 5px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    font-style: bold;
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {
+    background-color: #1F2A38;
+    padding-left: 20px;
+
+}
+
+.content {
+    width: 78%;
+    padding: 30px;
+    margin-left: 22%;
+    background-color: #ffffff;
+    color: #2C3E50;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+    .navbar {
+    margin-left: 333px;
+    background-color: #2C3E50;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 0.75rem 1rem;
+   
+}
+
+.navbar h4{
+    font-size: 16px;
+    font-family: "Times New Roman";
+}
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    margin-left: 4px;
+
+}
+
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-left:100px;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa;
+}
+
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+
+.user-dropdown button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+.user-dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: #2C3E50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.user-dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.user-dropdown-menu a:hover {
+    background-color: #00FFFF;
+    color: #2C3E50;
+
+}
+
+.user-dropdown-menu .dropdown-divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 0;
+}
+
+.account-icon {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.navbar .user-name {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#mainContent h2{
+    margin-top: 75px;
+}
+
+.container_chat{
+    margin-left:800px;
+    margin-top: 500px;
+}
+
+
+
